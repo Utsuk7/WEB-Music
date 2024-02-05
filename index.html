@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Listen all songs for free</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand" ><img src="\spotify_front_end\OIP.jpg" alt="Spotify"><span>SPOTIFY</span> </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+ 
+ <div class="container">
+        <div class="songlist" >
+            <li><img src="\spotify_front_end\images.png" alt="imagine dragons" class="ncs_img"></li>
+            <h1>
+                <li class="ncs_heading">PLAYLISTS-Imagine Dragons</li>
+            </h1>
+        </div>
+       
+      <!--  <div class="title"> 
+        <span class="title_song">Title</span> <span class="time_song"><span><i class="fa-solid fa-clock-three" id="clock"></i></span></span>
+        </div>-->
+        
+        
+       <ol class="playlist">
+        <li class="songitem">
+        <div class="songnames">
+            <span class="cursor">
+            <span class="songName">Bad Liars </span> <br><span class="singer_name"> Imagine Dragons</span> <span class="time">   [4:20]  </span><i id="0" class="fa-solid songitemplay fa-circle-play"></i>
+            </span>
+        </div>
+       </li>
+       <li class="songitem">
+        <div class="songnames">
+            <span class="cursor">
+            <span class="songName">Bones </span> <br><span class="singer_name"> Imagine Dragons</span> <span class="time">   [2.02]  </span><i id="1" class="fa-solid songitemplay fa-circle-play"></i>
+            </span>
+        </div>
+    </li>
+
+         <li class="songitem">
+        <div class="songnames">
+            <span class="cursor">
+            <span class="songName">Sharks </span><br><span class="singer_name"> Imagine Dragons</span> <span class="time">   [2.02]  </span><i id="2" class="fa-solid songitemplay fa-circle-play"></i>
+            </span>
+        </div>
+       </li>
+
+         <li class="songitem">
+        <div class="songnames">
+            <span class="cursor">
+            <span class="songName">Thunder </span> <br><span class="singer_name"> Imagine Dragons</span> <span class="time">   [2.02]  </span><i id="3" class="fa-solid songitemplay fa-circle-play"></i>
+            </span>
+        </div>
+        </li>
+
+    </ol>
+     
+
+        <div class="songbanner">
+
+        </div>
+ </div>
+
+
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--font awesome icons-->
+            <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="MasterPlay"></i>
+            <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+        </div>
+       
+        <div class="songinfo">
+            <img src="\spotify_front_end\playing.gif" width="50px" alt="" id="gif" ><span id="mastersonginfo">Bad Liar</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/35774583aa.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+      
